@@ -1,6 +1,7 @@
 /* Write your CSS here! */
 body {
-
+    margin: 8px;
+    display: block;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 0;
@@ -212,4 +213,12 @@ article{
     padding-top: 100px;
     padding-bottom: 100px;
 
+}
+
+#mainHeading{
+    color: red;
+}
+
+#funParagraph{
+    color: green;
 }
