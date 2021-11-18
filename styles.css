@@ -1,1 +1,175 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #22222b;
+    }
+
+header {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+p {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Bebas Neue;
+    color: #EE4DA0;
+    font-size: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: Bebas Neue;
+    letter-spacing: 4px;
+    font-size: 100px;
+    color: #fff;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: bebas neue;
+    color: #EE4DA0;
+    padding: 10px;
+    margin: 0px;
+}
+h4{
+    text-align: center;
+    font-size: 40px;
+    font-family: bebas neue;
+    color: #5CC7D2;
+    padding: 10px;
+    margin: 0px;
+}
+
+h5{
+    text-align: center;
+    font-size: 40px;
+    font-family: bebas neue;
+    color: #fff;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+
+.nav a.active{
+    background: #FFF
+}
+
+.nav {
+    bottom: 20;
+    width: 100%;
+    background-color: inherit;
+    text-align: center;
+    padding-bottom: 200px;
+    position: static;
+}
+
+.nav ul {
+    list-style: none;
+    background-color: #22222B;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    margin: 10px;
+}
+
+.nav li {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .5s background-color;
+}
+
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+a {
+    text-align: center;
+    color: #EE4DA0;
+    font-size: 20px;
+    font-family: bebas neue;
+    margin: 0px;
+}
+
+
+#headingheader{
+    border-radius: 10px;
+    border: 1px solid #F8981D;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.about{
+    border-radius: 10px;
+    border: 1px solid #F8981D;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+article{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+#mainHeading{
+    color: red;
+}
+
+#funParagraph{
+    color: green;
+}
